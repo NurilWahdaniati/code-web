@@ -10,7 +10,7 @@
              });
          @endphp
          <script>
-             var link = "{{asset('storage/image/')}}";
+             var link = "{{asset('image/')}}";
              var images = {!! json_encode($images) !!}
              var ctx = document.getElementById("grafikAir").getContext('2d');
              let grafikAir = new Chart(ctx, {
